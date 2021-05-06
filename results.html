@@ -1,0 +1,15 @@
+{%extends "main.html"%}
+{%block content%}
+<div class="results" class="container tab-pane fade">
+    <div class="row">
+        <div class="col-md-6 text-center center-block">
+            <img src="{{url_for('static',filename='img/accuracy.png')}}">
+           <h4> Accuracy Results</h4>
+        </div>
+        <div class="col-md-6 text-center center-block">
+            <img src="{{url_for('static',filename='img/timing.png')}}">
+            <h4>Time Results</h4>
+        </div>
+    </div>
+</div>
+{%endblock%}
