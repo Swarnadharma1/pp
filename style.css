@@ -1,0 +1,38 @@
+.nav-pills>li.active>a{
+    background-color: dodgerblue;
+    color:whitesmoke;
+}
+.nav>li>a{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 15px;
+}
+.nav-justified>li>a {
+    color: dodgerblue;
+    margin-bottom: 5px;
+    text-align: center;}
+.navbar-default {
+    background-color: rgb(30, 144, 255);
+    border-color: rgba(30, 143, 255, 0.877);
+    
+}
+.navbar {
+    text-align:center;
+}
+h1 {
+    color:whitesmoke;
+    padding-bottom: 5px;
+}
+div#loading {
+    width: 35px;
+    height: 35px;
+    display: none;
+    background: url(../img/ajax-loader.gif) no-repeat;
+    cursor: wait;
+    }
+div#loadText{
+    display:none;
+}
+.btn-primary{
+    background-color: dodgerblue;
+}
