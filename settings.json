@@ -1,0 +1,7 @@
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "e:/Project/Study of Project/lib/Scripts/python.exe",
+    "python.venvFolders": [
+        "E:\\Project\\Study of Project\\lib\\"
+    ]
+}
